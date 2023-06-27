@@ -1,6 +1,6 @@
-# Responsive Web Dashboard
+# Web-01
 
-This project is a wireframe design of a responsive website dashboard, implemented using CSS grid. It provides a visually appealing and user-friendly interface for displaying various data and statistics.
+This project is a static responsive web design made with pure CSS grid, no framework and no javascript. It provides a visually appealing and user-friendly interface that adapts to various screen size.
 
 ## Live Preview
 
@@ -11,6 +11,8 @@ You can access the live preview of the website [here](https://codepen.io/paxbond
 - Responsive layout using CSS grid.
 - Clean and modern design.
 - Easy to customize and extend.
+- No styling framework.
+- No Javascript.
 
 ## Screenshots
 
