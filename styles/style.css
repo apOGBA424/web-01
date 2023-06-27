@@ -1,0 +1,52 @@
+
+@import url('./header.css');
+@import url('./section-a.css');
+@import url('./section-b.css');
+@import url('./section-c.css');
+@import url('./section-d.css');
+@import url('./section-e.css');
+@import url('./footer.css');
+@import url('./media-queries.css');
+
+
+/* reset rule */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* variables */
+:root{
+    --base-font-family: Arial, Helvetica, sans-serif;
+    --alt-font-family: 'Times New Roman', Times, serif;
+    --console-font-family: monospace;
+    --no-color: transparent;
+    --dark-color: #222;
+    --dark30-color: #333;
+    --white90-color: #FBFBFB;
+    --light-color: #e8e8e8;
+    --custom-blue-color: #2690D4;
+    --outline-props1: 1px dashed aliceblue;
+    --outline-props2: 1px dashed yellow;
+    --outline-props3: 1px dashed pink;
+    --outline-props4: 2px dashed cyan;
+    --outline-props5: 1px dashed teal;
+    --outline-props6: 1px dashed blue;
+}
+
+h1, h2, h3, a, p{
+    color: var(--white90-color);
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--dark-color);
+    font-family: var(--base-font-family);
+    text-align: center;
+}

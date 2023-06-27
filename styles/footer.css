@@ -1,0 +1,23 @@
+
+
+footer{
+    background-color: black;
+    padding: 2rem 0;
+}
+
+footer h3{
+    /* outline: var(--outline-props3); */
+    font-family: var(--console-font-family);
+    /* padding-bottom: 1rem; */
+    font-size: 20px;
+}
+
+footer p{
+    padding-top: 1rem;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+footer span a{
+    color: var(--custom-blue-color);
+}

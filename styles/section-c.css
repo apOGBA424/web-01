@@ -1,0 +1,21 @@
+
+
+.section-c{
+    background-color: var(--light-color);
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.section-c h2{
+    /* outline: var(--outline-props5); */
+    color: var(--dark30-color);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.section-c p{
+    /* outline: var(--outline-props3); */
+    color: var(--dark30-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}

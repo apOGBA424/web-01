@@ -1,0 +1,17 @@
+
+
+/* section-e rules */
+.section-e{
+    /* outline: var(--outline-props4); */
+    padding: 3rem 1rem;
+}
+
+.section-e h2{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.section-e p{
+    /* outline: var(--outline-props3); */
+    padding-bottom: 2rem;
+}

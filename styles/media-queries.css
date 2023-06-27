@@ -1,0 +1,85 @@
+
+
+
+/* for--299px-screens--and--below */
+
+@media (max-width:299px){
+    header{
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    header .intro-text{
+        /* outline: var(--outline-props2); */
+        font-size: 16px;
+    }
+    header .brand-name{
+        /* outline: var(--outline-props4); */
+        line-height: 0.9;
+        padding: 2rem 0 3rem;
+    }
+    header p{
+        /* outline: var(--outline-props3); */
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    header .backdrop-image--div img{
+        width: 100%;
+        height: 140%;
+    }
+}
+
+
+/* ******************************************* */
+
+
+/* for--700px-screens--and--above */
+
+@media (min-width:700px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    .section-a p,
+    .section-b p{
+        text-align: left;
+    }
+    .section-a p{
+        columns: 2;
+        text-align: left;
+    }
+    
+    
+    .section-b{
+        padding: 1em 0 !important;
+    }
+    .section-b .cards{
+        display: flex;
+    }
+    .section-b .cards li{
+        margin: 0 0.5rem;
+    }
+    .section-b .cards img{
+        object-fit: contain;
+    }
+    .section-b .cards p{
+        padding-bottom: 1rem;
+    }
+
+
+    .section-c h2,
+    .section-d h2,
+    .section-e h2{
+        display: block;
+        grid-column: 2/4;
+    }
+    .section-c p,
+    .section-d p,
+    .section-d small,
+    .section-e p{
+        grid-column: 2/4;
+    }
+
+}

@@ -1,0 +1,39 @@
+
+
+/* section-b rules */
+
+.section-b{
+    /* outline: var(--outline-props4); */
+    margin: 0 1rem;
+    box-sizing: border-box;
+}
+
+.cards li{
+    /* outline: var(--outline-props2); */
+    width: 100%;
+    background-color: var(--white90-color);
+    opacity: 0.98;
+}
+
+.cards li h3, .cards li p{
+    /* outline: var(--outline-props6); */
+    color: var(--dark-color);
+    padding-bottom: 2rem;
+}
+
+.section-b .cards li .image-frame{
+    background-color: var(--dark-color);
+    height: 300px;
+}
+.section-b .cards li .image-frame img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.section-b .cards li .card-body{
+    margin: 1rem;
+    padding-top: 2rem;
+}

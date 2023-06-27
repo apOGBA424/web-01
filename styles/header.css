@@ -1,0 +1,82 @@
+
+
+
+/* header */
+header{
+    /* outline: var(--outline-props1); */
+    position: relative;
+    padding: 6rem;
+}
+
+header .logo{
+    /* outline: var(--outline-props2); */
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 1rem;
+    font-family: var(--console-font-family) ;
+    margin: 1em;
+    text-shadow: -5px 2px 4px var(--dark-color) ;
+}
+
+header h1{
+    margin-top: 4rem;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 1.2;
+    text-shadow: -4px -2px 26px var(--dark-color);
+}
+
+header .brand-name{
+    display: inline-block;
+    /* outline: var(--outline-props3); */
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-family: var(--console-font-family);
+    font-weight: 800;
+    font-size: 26px;
+    word-spacing: 0.2px;
+    text-shadow: -8px 2px 18px var(--dark-color);
+}
+
+header p{
+    font-family: var(--console-font-family);
+    color: var(--white90-color);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+header .backdrop-image--div{
+    position: absolute;
+    height: 27rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header button{
+    margin-top: 1.2rem;
+    display: inline-block;
+    padding: .8em 2.6em;
+    border-radius: 4px;
+    border: 1px solid var(--light-color);
+    background-color: var(--no-color);
+    color: var(--light-color);
+}
+header button:hover{
+     cursor: pointer;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+header img{
+    width: 100%;
+    height: 120%;
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: cover;
+    opacity: 0.4;
+    filter: blur(2px);
+}

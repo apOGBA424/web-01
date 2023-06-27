@@ -1,0 +1,23 @@
+
+/* section-a */
+.section-a{
+    margin: 2em 0;
+    background-color: var(--light-color);
+}
+
+/* section-a title */
+.section-a h2{
+    /* outline: var(--outline-props6); */
+    color: var(--dark-color);
+    padding: 1.8rem;
+}
+
+/* section-a description */
+.section-a p{
+    /* outline: var(--outline-props5); */
+    color: var(--dark-color);
+    margin: 0 10%;
+    padding-bottom: 6rem;
+}
+
+
