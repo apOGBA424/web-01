@@ -14,9 +14,11 @@ You can access the live preview of the website [here](https://codepen.io/paxbond
 - No styling framework.
 - No Javascript.
 
+
+<br><br>
 ## Screenshots
 
-<!-- ![Screenshot 1](/screenshots/screenshot1.png) -->
+![Screenshot 1](/images/web-01.svg)
 
 <br><br>
 ## Getting Started
