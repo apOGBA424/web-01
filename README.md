@@ -1,6 +1,6 @@
 # Web-01
 
-This project is a static responsive web design made with pure CSS grid, no framework and no javascript. It provides a visually appealing and user-friendly interface that adapts to various screen size.
+This project is a static responsive web design made with pure CSS grid, no framework and no javascript. It provides a visually appealing and user-friendly interface that adapts to various screen sizes.
 
 ## Live Preview
 
@@ -18,11 +18,12 @@ You can access the live preview of the website [here](https://codepen.io/paxbond
 
 <!-- ![Screenshot 1](/screenshots/screenshot1.png) -->
 
+<br><br>
 ## Getting Started
 
-To get a local copy of the project up and running, follow these steps:
+To get a local copy of the project up and running, follow the instruction below:<br>
 
-1. Clone the repository:
+Click the icon to copy the command then, clone the repository:
 
    ```bash
    git clone https://github.com/apOGBA424/web-01.git
