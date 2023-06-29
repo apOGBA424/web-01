@@ -20,7 +20,13 @@ You can access the live preview of the website [here](https://codepen.io/paxbond
 
 ![Screenshot 1](/images/web-01.svg)
 
-<br><br>
+<br>
+
+<br>
+
+### modified mediaQuery for screens above 700px 
+![Screenshot 1](/images/web-01--modified-UI.svg)
+
 ## Getting Started
 
 To get a local copy of the project up and running, follow the instruction below:<br>
