@@ -82,4 +82,17 @@
         grid-column: 2/4;
     }
 
+
+    .D-E--group,
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    footer h3{
+        /* outline: var(--outline-props4); */
+        padding-top: 20px;
+    }
+
 }
