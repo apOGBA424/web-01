@@ -22,8 +22,6 @@ You can access the live preview of the website [here](https://codepen.io/paxbond
 
 <br>
 
-<br>
-
 ### modified mediaQuery for screens above 700px 
 ![Screenshot 1](/images/web-01--modified-UI.svg)
 
